@@ -1,0 +1,495 @@
+[22Apr2021 15:07:38.917] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.0.46, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, -nogui]
+[22Apr2021 15:07:38.919] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 1.8.0_281 by Oracle Corporation
+[22Apr2021 15:07:39.198] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[22Apr2021 15:07:39.230] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/E:/MCServerFiles/ServerFiles+v2.1/libraries/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar Service=ModLauncher Env=SERVER
+[22Apr2021 15:07:40.890] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [shetiphian.core.mixins.MixinConnector]
+[22Apr2021 15:07:40.892] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., -nogui]
+[22Apr2021 15:07:40.904] [main/WARN] [mixin/]: Reference map 'globaldataandresourcepacks.refmap.json' for globaldataandresourcepacks.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Apr2021 15:07:47.769] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching DataPackRegistries#<init>
+[22Apr2021 15:07:48.580] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `torchbowmod` for name `torchbow`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:48.581] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `torchbowmod` for name `multitorch`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:49.475] [modloading-worker-1/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LootTableManager#apply
+[22Apr2021 15:07:49.504] [modloading-worker-7/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching DataPackRegistries#<init>
+[22Apr2021 15:07:49.637] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file E:\MCServerFiles\ServerFiles+v2.1\config\invtweaks-client.toml is not correct. Correcting
+[22Apr2021 15:07:49.641] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sorting was corrected from null to SimpleCommentedConfig:{}
+[22Apr2021 15:07:49.642] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sorting.category was corrected from null to [SimpleCommentedConfig:{name=sword, spec=[/instanceof:net.minecraft.item.SwordItem]}, SimpleCommentedConfig:{name=axe, spec=[/instanceof:net.minecraft.item.AxeItem]}, SimpleCommentedConfig:{name=pickaxe, spec=[/instanceof:net.minecraft.item.PickaxeItem]}, SimpleCommentedConfig:{name=shovel, spec=[/instanceof:net.minecraft.item.ShovelItem]}, SimpleCommentedConfig:{name=acceptableFood, spec=[/instanceof:net.minecraft.item.Food; !minecraft:rotten_flesh; !minecraft:spider_eye; !minecraft:poisonous_potato; !minecraft:pufferfish]}, SimpleCommentedConfig:{name=torch, spec=[minecraft:torch]}, SimpleCommentedConfig:{name=cheapBlocks, spec=[/tag:minecraft:cobblestone, /tag:minecraft:dirt]}, SimpleCommentedConfig:{name=blocks, spec=[/instanceof:net.minecraft.item.BlockItem]}]
+[22Apr2021 15:07:49.645] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sorting.rules was corrected from null to [D /LOCKED, A1-C9 /OTHER]
+[22Apr2021 15:07:49.646] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sorting.containerOverrides was corrected from null to [SimpleCommentedConfig:{containerClass=com.tfar.craftingstation.CraftingStationContainer, sortRange=}, SimpleCommentedConfig:{containerClass=tfar.dankstorage.container.DankContainers, sortRange=}, SimpleCommentedConfig:{containerClass=mcjty.rftoolsutility.modules.crafter.blocks.CrafterContainer, sortRange=}, SimpleCommentedConfig:{containerClass=appeng.container.implementations.InterfaceTerminalContainer, sortRange=}, SimpleCommentedConfig:{containerClass=appeng.container.implementations.CraftingTermContainer, sortRange=}, SimpleCommentedConfig:{containerClass=appeng.container.implementations.PatternTermContainer, sortRange=}, SimpleCommentedConfig:{containerClass=appeng.container.implementations.WirelessTermContainer, sortRange=}]
+[22Apr2021 15:07:49.651] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks was corrected from null to SimpleCommentedConfig:{}
+[22Apr2021 15:07:49.652] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.autoRefill was corrected from null to true
+[22Apr2021 15:07:49.652] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.quickView was corrected from null to true
+[22Apr2021 15:07:49.653] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.enableSort was corrected from null to 3
+[22Apr2021 15:07:49.654] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.enableButtons was corrected from null to 3
+[22Apr2021 15:07:49.994] [modloading-worker-4/INFO] [JarSignVerifier/]: Mod uteamcore is signed with a valid certificate.
+[22Apr2021 15:07:50.106] [modloading-worker-6/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.0.46, for MC 1.16.5 with MCP 20210115.111550
+[22Apr2021 15:07:50.107] [modloading-worker-6/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.0.46 Initialized
+[22Apr2021 15:07:50.129] [modloading-worker-5/INFO] [com.ldtteam.perviaminvenire.config.ConfigurationManager/]: PVI Configuration created.
+[22Apr2021 15:07:50.166] [modloading-worker-5/INFO] [chocolate/]: Vanilla is real good, but chocolate is better, let's be honest. :)
+[22Apr2021 15:07:50.277] [modloading-worker-5/INFO] [JarSignVerifier/]: Mod usefulbackpacks is signed with a valid certificate.
+[22Apr2021 15:07:50.374] [modloading-worker-7/INFO] [net.silentchaos512.utils.config.ConfigSpecWrapper/]: Loading config file E:\MCServerFiles\ServerFiles+v2.1\config\torchbandolier-common.toml
+[22Apr2021 15:07:51.064] [modloading-worker-7/INFO] [corgiaoc.byg.BYG/]: Loading config: E:\MCServerFiles\ServerFiles+v2.1\config\byg\byg-world.toml
+[22Apr2021 15:07:51.857] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `glass`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:51.859] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `black_stained_glass`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:51.877] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `blue_stained_glass`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:51.879] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `brown_stained_glass`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:51.880] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `cyan_stained_glass`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:51.881] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `gray_stained_glass`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:51.882] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `green_stained_glass`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:51.883] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `light_blue_stained_glass`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:51.884] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `light_gray_stained_glass`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:51.885] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `lime_stained_glass`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:51.886] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `magenta_stained_glass`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:51.886] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `orange_stained_glass`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:51.887] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `pink_stained_glass`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:51.888] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `purple_stained_glass`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:51.889] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `red_stained_glass`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:51.890] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `white_stained_glass`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:51.890] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `yellow_stained_glass`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:53.786] [main/INFO] [bno/]: Blocks Registered
+[22Apr2021 15:07:53.789] [main/INFO] [bno/]: Ore Blocks Registered
+[22Apr2021 15:07:56.168] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Blocks registered!
+[22Apr2021 15:07:56.207] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `glass`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:56.208] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `black_stained_glass`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:56.209] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `blue_stained_glass`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:56.210] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `brown_stained_glass`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:56.211] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `cyan_stained_glass`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:56.212] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `gray_stained_glass`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:56.213] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `green_stained_glass`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:56.214] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `light_blue_stained_glass`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:56.215] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `light_gray_stained_glass`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:56.216] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `lime_stained_glass`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:56.216] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `magenta_stained_glass`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:56.217] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `orange_stained_glass`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:56.218] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `pink_stained_glass`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:56.219] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `purple_stained_glass`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:56.220] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `red_stained_glass`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:56.221] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `white_stained_glass`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:56.221] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `yellow_stained_glass`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:56.223] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `shears`, expected `variant16x`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:56.258] [main/INFO] [bno/]: ItemBlocks Registered
+[22Apr2021 15:07:56.259] [main/INFO] [bno/]: Ingots Registered
+[22Apr2021 15:07:56.746] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Items registered!
+[22Apr2021 15:07:56.812] [main/INFO] [Bookshelf/]: Registered 11 GlobalLootModifierSerializer entries in 54.54ms.
+[22Apr2021 15:07:57.698] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for farmingforblockheads:merchant, use EntityAttributeCreationEvent instead.
+[22Apr2021 15:07:57.767] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Entities registered!
+[22Apr2021 15:07:57.776] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:57.811] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `flowing_milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[22Apr2021 15:07:57.912] [main/INFO] [Bookshelf/]: Registered 22 ingredient serializers.
+[22Apr2021 15:07:57.916] [main/INFO] [Bookshelf/]: Registered 5 IRecipeSerializer entries in 4.18ms.
+[22Apr2021 15:07:59.807] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Biomes registered!
+[22Apr2021 15:07:59.811] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Registering block placer types!
+[22Apr2021 15:07:59.820] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Decorators registered!
+[22Apr2021 15:07:59.840] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Features registered!
+[22Apr2021 15:07:59.865] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Structures registered!
+[22Apr2021 15:07:59.868] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Surface builders Registered!
+[22Apr2021 15:08:00.079] [main/INFO] [de.geheimagentnr1.rapid_leaf_decay.config.MainConfig/]: Loading "Rapid Leaf Decay" Config
+[22Apr2021 15:08:00.080] [main/INFO] [de.geheimagentnr1.rapid_leaf_decay.config.MainConfig/]: [decay_delay] = 5
+[22Apr2021 15:08:00.080] [main/INFO] [de.geheimagentnr1.rapid_leaf_decay.config.MainConfig/]: "Rapid Leaf Decay" Config loaded
+[22Apr2021 15:08:00.177] [modloading-worker-4/WARN] [morpheus/]: New day handler for dimension ResourceKey[minecraft:dimension / minecraft:overworld] has been replaced
+[22Apr2021 15:08:00.181] [modloading-worker-1/INFO] [Bookshelf/]: Registering 3 command argument types.
+[22Apr2021 15:08:00.182] [modloading-worker-1/INFO] [Bookshelf/]: Registering 13 loot conditions.
+[22Apr2021 15:08:00.196] [modloading-worker-7/INFO] [bno/]: Setup Method Registered (PreInit)
+[22Apr2021 15:08:00.193] [modloading-worker-6/INFO] [com.dynamic_view.DynView/]: Zooming chunks initiated!
+[22Apr2021 15:08:00.188] [modloading-worker-5/INFO] [com.ldtteam.perviaminvenire.PerViamInvenire/]: Starting PVI.
+[22Apr2021 15:08:00.199] [modloading-worker-7/INFO] [com.logprot.Logprot/]: Shields up!
+[22Apr2021 15:08:00.352] [modloading-worker-2/INFO] [corgiaoc.byg.BYG/]: Reading Sub-Biomes json
+[22Apr2021 15:08:00.358] [modloading-worker-2/INFO] [corgiaoc.byg.BYG/]: Reading json
+[22Apr2021 15:08:00.362] [modloading-worker-2/INFO] [corgiaoc.byg.BYG/]: BYG: "Common Setup" Event Complete!
+[22Apr2021 15:08:00.347] [modloading-worker-1/INFO] [com.shutdowner.Shutdowner/]: Zooming chunks initiated!
+[22Apr2021 15:08:00.343] [modloading-worker-7/WARN] [supertools/]: FMLCommonSetupEvent
+[22Apr2021 15:08:00.320] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering/]: Attempting to download special revolvers from GitHub
+[22Apr2021 15:08:00.320] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [glasscutter] Starting version check at https://raw.githubusercontent.com/Lothrazar/GlassCutter/trunk/1.16/update.json
+[22Apr2021 15:08:00.271] [modloading-worker-4/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[22Apr2021 15:08:00.382] [modloading-worker-4/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 snowball = 1 snow_block
+[22Apr2021 15:08:00.383] [modloading-worker-4/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 glowstone_dust = 1 glowstone
+[22Apr2021 15:08:00.384] [modloading-worker-4/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 brick = 1 bricks
+[22Apr2021 15:08:00.384] [modloading-worker-4/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 nether_brick = 1 nether_bricks
+[22Apr2021 15:08:00.388] [modloading-worker-4/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 nether_wart = 1 nether_wart_block
+[22Apr2021 15:08:00.389] [modloading-worker-4/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 quartz = 1 quartz_block
+[22Apr2021 15:08:00.392] [modloading-worker-4/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 melon_slice = 1 melon
+[22Apr2021 15:08:00.457] [modloading-worker-4/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 sand = 1 sandstone
+[22Apr2021 15:08:00.458] [modloading-worker-4/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 red_sand = 1 red_sandstone
+[22Apr2021 15:08:00.459] [modloading-worker-4/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[22Apr2021 15:08:01.128] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:citizen, use EntityAttributeCreationEvent instead.
+[22Apr2021 15:08:01.150] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:visitor, use EntityAttributeCreationEvent instead.
+[22Apr2021 15:08:01.151] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:mercenary, use EntityAttributeCreationEvent instead.
+[22Apr2021 15:08:01.151] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:mercenary, use EntityAttributeCreationEvent instead.
+[22Apr2021 15:08:01.152] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:barbarian, use EntityAttributeCreationEvent instead.
+[22Apr2021 15:08:01.153] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:archerbarbarian, use EntityAttributeCreationEvent instead.
+[22Apr2021 15:08:01.153] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:chiefbarbarian, use EntityAttributeCreationEvent instead.
+[22Apr2021 15:08:01.154] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:pharao, use EntityAttributeCreationEvent instead.
+[22Apr2021 15:08:01.155] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:mummy, use EntityAttributeCreationEvent instead.
+[22Apr2021 15:08:01.156] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:archermummy, use EntityAttributeCreationEvent instead.
+[22Apr2021 15:08:01.156] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:pirate, use EntityAttributeCreationEvent instead.
+[22Apr2021 15:08:01.157] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:archerpirate, use EntityAttributeCreationEvent instead.
+[22Apr2021 15:08:01.158] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:chiefpirate, use EntityAttributeCreationEvent instead.
+[22Apr2021 15:08:01.159] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:amazon, use EntityAttributeCreationEvent instead.
+[22Apr2021 15:08:01.160] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:amazonchief, use EntityAttributeCreationEvent instead.
+[22Apr2021 15:08:01.161] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:norsemenarcher, use EntityAttributeCreationEvent instead.
+[22Apr2021 15:08:01.162] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:norsemenchief, use EntityAttributeCreationEvent instead.
+[22Apr2021 15:08:01.162] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:shieldmaiden, use EntityAttributeCreationEvent instead.
+[22Apr2021 15:08:01.225] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [glasscutter] Found status: BETA Current: 1.16.4-2.0.1 Target: null
+[22Apr2021 15:08:01.245] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [variant16x] Starting version check at https://raw.githubusercontent.com/BKthousand/Update16x/master/variant16x/updates.json
+[22Apr2021 15:08:01.265] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [variant16x] Found status: UP_TO_DATE Current: 0.17.4.5_beta Target: null
+[22Apr2021 15:08:01.266] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bettercaves] Starting version check at https://raw.githubusercontent.com/yungnickyoung/YUNGs-Better-Caves/1.16/versions.json
+[22Apr2021 15:08:01.282] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bettercaves] Found status: BETA Current: 1.16.4-1.1.1 Target: null
+[22Apr2021 15:08:01.282] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.16.5
+[22Apr2021 15:08:01.543] [modloading-worker-7/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[22Apr2021 15:08:01.588] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[22Apr2021 15:08:01.897] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA_OUTDATED Current: 6.0.0.17 Target: 6.0.0.21
+[22Apr2021 15:08:01.907] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [controlling] Starting version check at https://updates.blamejared.com/get?n=controlling&gv=1.16.5
+[22Apr2021 15:08:01.945] [modloading-worker-5/WARN] [minecolonies/]: FMLLoadCompleteEvent
+[22Apr2021 15:08:01.947] [modloading-worker-1/INFO] [Waila/]: Registered plugin at net.blay09.mods.cookingforblockheads.compat.WailaAddon
+[22Apr2021 15:08:01.960] [modloading-worker-1/INFO] [Waila/]: Registered plugin at mcp.mobius.waila.addons.minecraft.PluginMinecraft
+[22Apr2021 15:08:01.966] [modloading-worker-5/WARN] [minecolonies.requestsystem/]: Updated logging config. RS Debug logging enabled: false
+[22Apr2021 15:08:01.969] [modloading-worker-1/INFO] [Waila/]: Registered plugin at net.darkhax.wawla.WawlaPlugin
+[22Apr2021 15:08:01.998] [modloading-worker-5/WARN] [minecolonies/]: Register mappings
+[22Apr2021 15:08:02.001] [modloading-worker-1/INFO] [Waila/]: Registered plugin at com.jaquadro.minecraft.storagedrawers.integration.Waila
+[22Apr2021 15:08:02.003] [modloading-worker-1/INFO] [Waila/]: Registered plugin at ovh.corail.tombstone.compatibility.IntegrationHwyla
+[22Apr2021 15:08:02.006] [modloading-worker-1/INFO] [Waila/]: Registered plugin at squeek.wailaharvestability.WailaHandler
+[22Apr2021 15:08:02.017] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Compostible Blocks Added!
+[22Apr2021 15:08:02.019] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Added Hoeable Blocks!
+[22Apr2021 15:08:02.034] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [controlling] Found status: BETA_OUTDATED Current: 7.0.0.14 Target: 7.0.0.15
+[22Apr2021 15:08:02.035] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.16.5
+[22Apr2021 15:08:02.067] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Added Flammables!
+[22Apr2021 15:08:02.071] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Added strippable Blocks...
+[22Apr2021 15:08:02.074] [main/INFO] [corgiaoc.byg.BYG/]: BYG: "Load Complete" Event Complete!
+[22Apr2021 15:08:02.147] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 10.0.7 Target: 10.0.7
+[22Apr2021 15:08:02.147] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
+[22Apr2021 15:08:02.372] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Found status: BETA Current: 3.2.0.194 Target: null
+[22Apr2021 15:08:02.386] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [wawla] Starting version check at https://updates.blamejared.com/get?n=wawla&gv=1.16.5
+[22Apr2021 15:08:02.535] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [wawla] Found status: BETA Current: 8.0.3 Target: 8.0.3
+[22Apr2021 15:08:02.564] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [horsestandstill] Starting version check at https://raw.githubusercontent.com/Lothrazar/stupidHorseStandStill/trunk/1.16/update.json
+[22Apr2021 15:08:02.614] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [horsestandstill] Found status: AHEAD Current: 1.16.5-1.0.2 Target: null
+[22Apr2021 15:08:02.615] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[22Apr2021 15:08:03.048] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 36.0.46 Target: 36.1.0
+[22Apr2021 15:08:03.048] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/bridges.json
+[22Apr2021 15:08:03.075] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Found status: UP_TO_DATE Current: 1.0.5 Target: null
+[22Apr2021 15:08:03.075] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [usefulbackpacks] Starting version check at https://api.u-team.info/update/usefulbackpacks.json
+[22Apr2021 15:08:03.129] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [usefulbackpacks] Found status: BETA Current: 1.11.6.87 Target: null
+[22Apr2021 15:08:03.130] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersiveengineering] Starting version check at https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.16/changelog.json
+[22Apr2021 15:08:03.570] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersiveengineering] Found status: BETA Current: 1.16.5-4.2.4-134 Target: null
+[22Apr2021 15:08:03.571] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [silentlib] Starting version check at https://raw.githubusercontent.com/SilentChaos512/SilentLib/1.14/update.json
+[22Apr2021 15:08:03.595] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [silentlib] Found status: BETA Current: 4.9.6 Target: null
+[22Apr2021 15:08:03.596] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jeiintegration] Starting version check at https://cdn.snowshock35.com/mods/jei-integration/update.json
+[22Apr2021 15:08:03.789] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jeiintegration] Found status: BETA Current: 7.0.1.15 Target: null
+[22Apr2021 15:08:03.791] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[22Apr2021 15:08:03.847] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 6.3.3 Target: null
+[22Apr2021 15:08:03.847] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ambientenvironment] Starting version check at https://updates.blamejared.com/get?n=AmbientEnvironment&gv=1.16.4
+[22Apr2021 15:08:03.944] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ambientenvironment] Found status: BETA Current: 4.0.0.6 Target: null
+[22Apr2021 15:08:03.944] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [torchbowmod] Starting version check at https://raw.githubusercontent.com/noriokun4649/TorchBowMod/master/update.json
+[22Apr2021 15:08:03.972] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [torchbowmod] Found status: BETA Current: 1.4 Target: null
+[22Apr2021 15:08:03.972] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [servertabinfo] Starting version check at https://raw.githubusercontent.com/Crimix/ServerTabInfo/master/update.json
+[22Apr2021 15:08:03.994] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [servertabinfo] Found status: BETA Current: 1.3.3 Target: null
+[22Apr2021 15:08:07.808] [main/INFO] [corgiaoc.byg.BYG/]: Reading json
+[22Apr2021 15:08:07.812] [main/INFO] [corgiaoc.byg.BYG/]: Reading json
+[22Apr2021 15:08:07.906] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22Apr2021 15:08:08.288] [main/INFO] [Bookshelf/]: Registering 1 commands.
+[22Apr2021 15:08:08.493] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [crashutilities, entities, remove, items, force] and [crashutilities, entities, remove, items, name] with inputs: [words_with_underscores, word]
+[22Apr2021 15:08:08.495] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [crashutilities, entities, remove, items, name] and [crashutilities, entities, remove, items, force] with inputs: [words_with_underscores, word]
+[22Apr2021 15:08:08.496] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [crashutilities, inventory, remove, name, slot] and [crashutilities, inventory, remove, name, slotType] with inputs: [0, -123, 123]
+[22Apr2021 15:08:08.502] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [crashutilities, tp, player, pos] and [crashutilities, tp, player, name] with inputs: [0 0 0]
+[22Apr2021 15:08:08.508] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [dc, broadcast, count] and [dc, broadcast, targets] with inputs: [0, -123, 123]
+[22Apr2021 15:08:08.510] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [dc, broadcast, targets] and [dc, broadcast, count] with inputs: [0123]
+[22Apr2021 15:08:08.517] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [structurize, scan, pos1, pos2, anchor_pos] and [structurize, scan, pos1, pos2, player] with inputs: [^1 ^ ^-5, 0 0 0, ~ ~ ~, ^ ^ ^, ~0.5 ~1 ~-5]
+[22Apr2021 15:08:08.521] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22Apr2021 15:08:08.522] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Apr2021 15:08:08.524] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Apr2021 15:08:08.526] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22Apr2021 15:08:08.528] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Apr2021 15:08:08.538] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, ExtraArmor-1.12.1-1.16.5.jar, glasscutter-1.16.4-2.0.1.jar, NetherPortalFix_1.16.3-7.2.1.jar, Variant16x-1.16.5-v0.17.4.5_beta.jar, DeathCounter-1.16.3-1.2.1.jar, jei-1.16.5-7.6.1.75.jar, caelus-forge-1.16.5-2.1.3.0.jar, BetterCaves-Forge-1.16.4-1.1.1.jar, Waystones_1.16.5-7.4.0.jar, glassential-forge-1.16.5-1.1.6.jar, Clumps-6.0.0.17.jar, XaerosWorldMap_1.13.1_Forge_1.16.5.jar, shutupexperimentalsettings-1.0.3.jar, mgui-1.16.4-3.1.3.jar, CookingForBlockheads_1.16.5-9.3.1.jar, Controlling-7.0.0.14.jar, Placebo-1.16.4-4.4.1.jar, comforts-forge-1.16.4-4.0.1.0.jar, NaturesCompass-1.16.5-1.8.6.jar, YungsApi-1.16.4-Forge-6.jar, netheritehorsearmor-1.7.jar, BasicNetherOres-1.16.5-5.5.0.jar, curioofundying-forge-1.16.4-5.1.0.0.jar, Wither-Skeleton-Tweaks-1.16.4-5.3.0.jar, FarmingForBlockheads_1.16.3-7.3.0.jar, Bookshelf-1.16.5-10.0.7.jar, u_team_core-1.16.5-3.2.0.194.jar, Morpheus-1.16.5-4.2.70.jar, per-viam-invenire-1.16.5-0.0.21-ALPHA-universal.jar, Hwyla-forge-1.10.11-B78_1.16.2.jar, WAWLA-1.16.5-8.0.3.jar, JustEnoughResources-1.16.4-0.12.0.109.jar, horsestandstill-1.16.5-1.0.2.jar, forge-1.16.5-36.0.46-universal.jar, shetiphiancore-1.16-3.8.5.jar, CraftingTweaks_1.16.3-12.2.0.jar, DiceMC-TieredArmor-1.16.4-1.0.jar, chocolate-1.3.0-1.16.4.jar, mcw-bridges-1.0.5-mc1.16.5-4.jar, useful_backpacks-1.16.4-1.11.6.87.jar, repurposed_structures-1.16.5-2.6.3-forge.jar, crashutilities-3.8.1.jar, ImmersiveEngineering-1.16.5-4.2.4-134.jar, silent-lib-1.16.3-4.9.6.jar, valhelsia_structures-16.0.5.jar, RapidLeafDecay-1.16.5-1.0.0.jar, ceramicbucket-2.5.7-1.16.2+.jar, simplylight-1.16.4-1.1.2.jar, simplefarming-1.16.4-1.3.5.jar, ceilingtorch-1.16.5-v1.10.jar, ceramicshears-1.4.0-1.16.4+.jar, jeiintegration_1.16.5-7.0.1.15.jar, curios-forge-1.16.5-4.0.5.0.jar, tetra-1.16.5-3.8.0.jar, collective-1.16.5-2.25.jar, torch-bandolier-1.16.3-1.5.2.jar, StorageDrawers-1.16.3-8.2.2.jar, tombstone-1.16-6.3.3.jar, globaldataandresourcepacks-1.16.4-1.7.4.jar, structurize-0.13.163-ALPHA-universal.jar, betterconduitplacement_1.16.5-1.2.jar, AmbientEnvironment-4.0.0.6.jar, minecolonies-0.14.93-ALPHA-universal.jar, [1.16.1-1.16.4][Forge]TorchBowMod_v1.4.jar, AppleSkin-mc1.16.2-forge-1.0.14.jar, curiouselytra-forge-1.16.5-4.0.2.3.jar, connectedglass-1.0.7-mc1.16.4.jar, byg-1.1.14.jar, betterbedrockgenerator-1.16.4-0.1.2.jar, CraftableHorseArmour-1.16.X-1.4.0.jar, CosmeticArmorReworked-1.16.5-v1b.jar, ServerTabInfo-1.16.4-1.3.3.jar, BetterMineshafts-Forge-1.16.4-2.0.3.jar, WailaHarvestability-mc1.16.x-forge-1.1.14.jar, supertools-1.16.5-4.4.jar, dynviewdist-1.7.jar, logprot-1.16-1.3.jar, shutdowner-1.8.jar, invtweaks-1.16.4-1.0.1.jar
+[22Apr2021 15:08:10.601] [Worker-Main-14/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 26 recipes
+[22Apr2021 15:08:11.855] [Worker-Main-14/INFO] [placebo/]: Registered 0 additional loot tables.
+[22Apr2021 15:08:11.994] [Worker-Main-14/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement tetra:spelunking/chthonic_crossbow: Unknown required criterion 'unused'
+[22Apr2021 15:08:12.030] [Worker-Main-14/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement tetra:spelunking/chthonic_cooldown: Task Advancement{parentId=tetra:spelunking/chthonic_crossbow, display=net.minecraft.advancements.DisplayInfo@2ae42efc, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.command.FunctionObject$CacheableFunction@5124ae26}, criteria={cooldown=net.minecraft.advancements.Criterion@3d8a5f98}, requirements=[[cooldown]]}
+[22Apr2021 15:08:12.072] [Worker-Main-14/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 7092 advancements
+[22Apr2021 15:08:12.077] [Worker-Main-14/INFO] [placebo/]: Registered 3 additional recipes.
+[22Apr2021 15:08:12.281] [Worker-Main-14/INFO] [immersiveengineering/]: Couldn't fully analyze 1 diamond_leggings, missing knowledge for {1 leather_leggings=1.0}
+[22Apr2021 15:08:12.282] [Worker-Main-14/INFO] [immersiveengineering/]: Couldn't fully analyze 1 diamond_horse_armor, missing knowledge for {1 diamond_leggings=2.0}
+[22Apr2021 15:08:12.282] [Worker-Main-14/INFO] [immersiveengineering/]: Couldn't fully analyze 1 iron_boots, missing knowledge for {1 leather_boots=1.0}
+[22Apr2021 15:08:12.283] [Worker-Main-14/INFO] [immersiveengineering/]: Couldn't fully analyze 1 iron_helmet, missing knowledge for {1 leather_helmet=1.0}
+[22Apr2021 15:08:12.284] [Worker-Main-14/INFO] [immersiveengineering/]: Couldn't fully analyze 1 diamond_chestplate, missing knowledge for {1 leather_chestplate=1.0}
+[22Apr2021 15:08:12.284] [Worker-Main-14/INFO] [immersiveengineering/]: Couldn't fully analyze 1 iron_leggings, missing knowledge for {1 leather_leggings=1.0}
+[22Apr2021 15:08:12.285] [Worker-Main-14/INFO] [immersiveengineering/]: Couldn't fully analyze 1 iron_chestplate, missing knowledge for {1 leather_chestplate=1.0}
+[22Apr2021 15:08:12.285] [Worker-Main-14/INFO] [immersiveengineering/]: Couldn't fully analyze 1 iron_horse_armor, missing knowledge for {1 iron_helmet=1.0, 1 iron_leggings=2.0}
+[22Apr2021 15:08:12.286] [Worker-Main-14/INFO] [immersiveengineering/]: Finished recipe profiler for Arc Recycling, took 107 milliseconds
+[22Apr2021 15:08:12.295] [Worker-Main-14/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded   6 tweaks
+[22Apr2021 15:08:12.302] [Worker-Main-14/INFO] [se.mickelus.tetra.data.MergingDataStore/]: Loaded  69 materials
+[22Apr2021 15:08:12.323] [Worker-Main-14/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded 227 improvements
+[22Apr2021 15:08:12.353] [Worker-Main-14/INFO] [se.mickelus.tetra.data.MergingDataStore/]: Loaded  65 modules
+[22Apr2021 15:08:12.493] [Worker-Main-14/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded  10 enchantments
+[22Apr2021 15:08:12.495] [Worker-Main-14/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded   3 synergies
+[22Apr2021 15:08:12.495] [Worker-Main-14/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded  10 replacements
+[22Apr2021 15:08:12.502] [Worker-Main-14/INFO] [se.mickelus.tetra.data.MergingDataStore/]: Loaded 287 schematics
+[22Apr2021 15:08:12.549] [Worker-Main-14/INFO] [se.mickelus.tetra.data.MergingDataStore/]: Loaded  14 crafting_effects
+[22Apr2021 15:08:12.554] [Worker-Main-14/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded  17 repairs
+[22Apr2021 15:08:12.556] [Worker-Main-14/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded   4 predicatus
+[22Apr2021 15:08:12.567] [Worker-Main-14/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded   2 actions
+[22Apr2021 15:08:12.568] [Worker-Main-14/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded  10 destabilization
+[22Apr2021 15:08:12.569] [Worker-Main-14/INFO] [se.mickelus.tetra.data.DataStore/]: Loaded  45 structures
+[22Apr2021 15:08:12.574] [Worker-Main-14/INFO] [minecolonies/]: Beginning load of custom recipes for colony workers
+[22Apr2021 15:08:12.595] [Worker-Main-14/INFO] [minecolonies/]: Loaded 428 recipes for 12 crafters
+[22Apr2021 15:08:12.597] [Worker-Main-14/INFO] [minecolonies/]: Finished discovering compostables
+[22Apr2021 15:08:12.597] [Worker-Main-14/INFO] [minecolonies/]: Beginning load of research for University.
+[22Apr2021 15:08:12.609] [Worker-Main-14/INFO] [minecolonies/]: Loaded 173 recipes for 4 research branches
+[22Apr2021 15:08:12.650] [Worker-Main-14/INFO] [immersiveengineering/]: Recipes for potions: minecraft:night_vision, minecraft:awkward, minecraft:strong_healing, minecraft:strong_poison, minecraft:harming, minecraft:long_invisibility, minecraft:long_turtle_master, minecraft:strong_strength, minecraft:long_weakness, minecraft:long_strength, minecraft:water, minecraft:turtle_master, minecraft:strength, minecraft:strong_regeneration, minecraft:strong_slowness, minecraft:swiftness, minecraft:invisibility, minecraft:strong_leaping, minecraft:long_fire_resistance, minecraft:long_swiftness, minecraft:thick, minecraft:long_poison, minecraft:weakness, minecraft:long_leaping, minecraft:long_regeneration, minecraft:healing, minecraft:strong_turtle_master, minecraft:slow_falling, minecraft:long_slow_falling, minecraft:long_water_breathing, minecraft:mundane, minecraft:fire_resistance, minecraft:slowness, minecraft:strong_swiftness, minecraft:regeneration, minecraft:poison, minecraft:leaping, minecraft:strong_harming, minecraft:water_breathing, minecraft:long_slowness, minecraft:long_night_vision
+[22Apr2021 15:08:16.663] [main/INFO] [minecolonies/]: Tags Loaded
+[22Apr2021 15:08:17.181] [main/INFO] [corgiaoc.byg.BYG/]: Reading json
+[22Apr2021 15:08:17.182] [main/INFO] [corgiaoc.byg.BYG/]: Reading json
+[22Apr2021 15:08:21.513] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[22Apr2021 15:08:21.514] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[22Apr2021 15:08:21.514] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[22Apr2021 15:08:21.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[22Apr2021 15:08:21.598] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[22Apr2021 15:08:21.602] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
+[22Apr2021 15:08:21.868] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[22Apr2021 15:08:22.168] [Server thread/INFO] [minecolonies/]: Tags Loaded
+[22Apr2021 15:08:22.226] [Server thread/INFO] [minecolonies/]: Tags Loaded
+[22Apr2021 15:08:22.262] [Server thread/INFO] [minecolonies/]: Tags Loaded
+[22Apr2021 15:08:22.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[22Apr2021 15:08:24.259] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[22Apr2021 15:08:24.260] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[22Apr2021 15:08:24.261] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[22Apr2021 15:08:24.261] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[22Apr2021 15:08:24.270] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[22Apr2021 15:08:24.730] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 2461 ms
+[22Apr2021 15:08:24.731] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (2.935s)! For help, type "help"
+[22Apr2021 15:08:24.789] [Server thread/INFO] [corgiaoc.byg.BYG/]: BYG: "Server Starting" Event Complete!
+[22Apr2021 15:08:24.815] [Server thread/INFO] [structurize/]: Trying jar discover: assets/structurize
+[22Apr2021 15:08:24.818] [Server thread/INFO] [structurize/]: Trying jar discover: assets/minecolonies
+[22Apr2021 15:08:25.692] [Netty Server IO #1/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[22Apr2021 15:08:25.815] [Server thread/INFO] [structurize/]: Load additional huts or decorations from .\structurize/schematics
+[22Apr2021 15:08:25.816] [Server thread/INFO] [structurize/]: Load cached schematic from .\structurize/cache
+[22Apr2021 15:08:25.817] [Server thread/INFO] [structurize/]: Load cached schematic from .\structurize/cache
+[22Apr2021 15:08:25.835] [Server thread/INFO] [minecolonies/]: Finished discovering saplings
+[22Apr2021 15:08:25.835] [Server thread/INFO] [minecolonies/]: Finished discovering Ores
+[22Apr2021 15:08:25.836] [Server thread/INFO] [minecolonies/]: Finished discovering plantables
+[22Apr2021 15:08:25.843] [Server thread/INFO] [minecolonies/]: Finished discovering food
+[22Apr2021 15:08:25.854] [Server thread/INFO] [minecolonies/]: Finished discovering fuel
+[22Apr2021 15:08:25.855] [Server thread/INFO] [minecolonies/]: Finished discovering lucky oreBlocks
+[22Apr2021 15:08:25.855] [Server thread/INFO] [minecolonies/]: Finished discovering recruitment costs
+[22Apr2021 15:08:25.856] [Server thread/INFO] [minecolonies/]: Finished discovering diseases
+[22Apr2021 15:08:25.963] [Server thread/INFO] [tombstone/]: The list of contributors has been loaded successfully
+[22Apr2021 15:08:33.037] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player Sirstas is 5f49e522-de1e-4fdf-be3e-8dc4581ec7ba
+[22Apr2021 15:08:38.080] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@5da3c5fa
+[22Apr2021 15:08:38.117] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Sirstas[/172.31.50.189:62927] logged in with entity id 120 at (1129.341872030921, 69.0, 840.2389909580334)
+[22Apr2021 15:08:38.146] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Sirstas joined the game
+[22Apr2021 15:08:38.226] [Server thread/INFO] [Waila/]: Syncing config to Sirstas (5f49e522-de1e-4fdf-be3e-8dc4581ec7ba)
+[22Apr2021 15:08:38.229] [Server thread/INFO] [se.mickelus.tetra.data.DataManager/]: Sending data to client: Sirstas
+[22Apr2021 15:08:38.243] [Server thread/INFO] [structurize/]: New Server UUID 4b93da3a-d262-4967-b1b8-4b2878fe972c
+[22Apr2021 15:08:40.816] [Server thread/INFO] [com.dynamic_view.DynView/]: Mean tick: 5ms increasing chunk view distance to: 6
+[22Apr2021 15:08:55.817] [Server thread/INFO] [com.dynamic_view.DynView/]: Mean tick: 9ms increasing chunk view distance to: 7
+[22Apr2021 15:09:10.819] [Server thread/INFO] [com.dynamic_view.DynView/]: Mean tick: 8ms increasing chunk view distance to: 8
+[22Apr2021 15:09:25.821] [Server thread/INFO] [com.dynamic_view.DynView/]: Mean tick: 8ms increasing chunk view distance to: 9
+[22Apr2021 15:09:40.821] [Server thread/INFO] [com.dynamic_view.DynView/]: Mean tick: 9ms increasing chunk view distance to: 10
+[22Apr2021 15:09:55.823] [Server thread/INFO] [com.dynamic_view.DynView/]: Mean tick: 10ms increasing chunk view distance to: 11
+[22Apr2021 15:10:10.824] [Server thread/INFO] [com.dynamic_view.DynView/]: Mean tick: 10ms increasing chunk view distance to: 12
+[22Apr2021 15:10:25.826] [Server thread/INFO] [com.dynamic_view.DynView/]: Mean tick: 11ms increasing chunk view distance to: 13
+[22Apr2021 15:10:40.828] [Server thread/INFO] [com.dynamic_view.DynView/]: Mean tick: 12ms increasing chunk view distance to: 14
+[22Apr2021 15:10:55.831] [Server thread/INFO] [com.dynamic_view.DynView/]: Mean tick: 13ms increasing chunk view distance to: 15
+[22Apr2021 15:11:10.832] [Server thread/INFO] [com.dynamic_view.DynView/]: Mean tick: 14ms increasing chunk view distance to: 16
+[22Apr2021 15:11:25.833] [Server thread/INFO] [com.dynamic_view.DynView/]: Mean tick: 15ms increasing chunk view distance to: 17
+[22Apr2021 15:11:40.835] [Server thread/INFO] [com.dynamic_view.DynView/]: Mean tick: 16ms increasing chunk view distance to: 18
+[22Apr2021 15:11:55.837] [Server thread/INFO] [com.dynamic_view.DynView/]: Mean tick: 16ms increasing chunk view distance to: 19
+[22Apr2021 15:12:10.839] [Server thread/INFO] [com.dynamic_view.DynView/]: Mean tick: 17ms increasing chunk view distance to: 20
+[22Apr2021 15:13:21.231] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@1e5ed843
+[22Apr2021 15:16:22.436] [Server thread/INFO] [minecolonies/]: WorkOrderBuild at location BlockPos{x=1074, y=69, z=988} is using schematics/acacia/builder3 instead of schematics/acacia/builder3
+[22Apr2021 15:19:40.051] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Sirstas has made the advancement [Any Shelter Will Do]
+[22Apr2021 15:19:40.056] [Server thread/INFO] [minecolonies/]: WorkOrderBuild at location BlockPos{x=1141, y=69, z=887} is using schematics/birch/tavern1 instead of schematics/birch/tavern1
+[22Apr2021 15:20:00.044] [Server thread/INFO] [tombstone/]: All players have been successfully backed up
+[22Apr2021 15:40:00.055] [Server thread/INFO] [tombstone/]: All players have been successfully backed up
+[22Apr2021 15:45:53.210] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Sirstas: Gave 1 [Soul Campfire] to Sirstas]
+[22Apr2021 15:47:42.455] [Server thread/INFO] [minecolonies/]: WorkOrderBuild at location BlockPos{x=1113, y=72, z=957} is using schematics/birch/university3 instead of schematics/birch/university3
+[22Apr2021 15:49:45.472] [Server thread/INFO] [minecolonies/]: WorkOrderBuild at location BlockPos{x=1113, y=72, z=957} is using schematics/birch/university3 instead of schematics/birch/university3
+[22Apr2021 15:56:53.973] [Server thread/INFO] [minecolonies/]: WorkOrderBuild at location BlockPos{x=1152, y=72, z=859} is using schematics/birch/crusher1 instead of schematics/birch/crusher1
+[22Apr2021 15:57:47.491] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Sirstas: Gave 64 [Pufferfish] to Sirstas]
+[22Apr2021 16:00:00.054] [Server thread/INFO] [tombstone/]: All players have been successfully backed up
+[22Apr2021 16:00:49.536] [Server thread/INFO] [minecolonies/]: WorkOrderBuild at location BlockPos{x=1074, y=69, z=988} is using schematics/acacia/builder2 instead of schematics/acacia/builder2
+[22Apr2021 16:04:39.037] [Worker-Main-311/INFO] [bettercaves/]: CREATING AND INIT'ING CARVER W DIMENSION minecraft:overworld...
+[22Apr2021 16:04:39.039] [Worker-Main-311/INFO] [bettercaves/]: Better Caves config file for dimension minecraft:overworld not found. Using global config...
+[22Apr2021 16:04:39.071] [Worker-Main-311/INFO] [bettercaves/]: Using block 'minecraft:lava' as lava in cave generation for dimension minecraft:overworld
+[22Apr2021 16:04:39.072] [Worker-Main-311/INFO] [bettercaves/]: Using block 'Block{minecraft:water}[level=0]' as water in cave generation for dimension minecraft:overworld
+[22Apr2021 16:11:02.306] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Sirstas: Gave 64 [Fire Coral Block] to Sirstas]
+[22Apr2021 16:11:21.787] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Sirstas: Gave 64 [Tube Coral Block] to Sirstas]
+[22Apr2021 16:13:04.592] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Sirstas: Gave 64 [Dead Bubble Coral Fan] to Sirstas]
+[22Apr2021 16:14:33.210] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Sirstas: Gave 500 [Cobblestone] to Sirstas]
+[22Apr2021 16:14:40.522] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Sirstas: Gave 500 [Cobblestone] to Sirstas]
+[22Apr2021 16:19:54.456] [Server thread/INFO] [net.minecraft.entity.Entity/]: Villager VillagerEntity['Villager'/931, l='ServerLevel[Lets Play]', x=1273.58, y=11.00, z=1127.80] died, message: 'Villager burned to death'
+[22Apr2021 16:20:00.038] [Server thread/INFO] [tombstone/]: All players have been successfully backed up
+[22Apr2021 16:20:08.069] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Sirstas: Gave 500 [Cobblestone] to Sirstas]
+[22Apr2021 16:20:12.772] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Sirstas: Gave 500 [Cobblestone] to Sirstas]
+[22Apr2021 16:22:39.573] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Sirstas: Gave 64 [Brain Coral Block] to Sirstas]
+[22Apr2021 16:26:29.486] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Sirstas: Gave 64 [Cactus] to Sirstas]
+[22Apr2021 16:40:00.050] [Server thread/INFO] [tombstone/]: All players have been successfully backed up
+[22Apr2021 16:40:50.782] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Sirstas: Gave 64 [Quartz Stairs] to Sirstas]
+[22Apr2021 16:41:13.811] [Server thread/WARN] [net.minecraft.entity.ai.attributes.AttributeModifierManager/]: Ignoring unknown attribute 'forge.swimSpeed'
+[22Apr2021 16:41:13.811] [Server thread/WARN] [net.minecraft.entity.ai.attributes.AttributeModifierManager/]: Ignoring unknown attribute 'forge.nameTagDistance'
+[22Apr2021 16:41:13.812] [Server thread/WARN] [net.minecraft.entity.ai.attributes.AttributeModifierManager/]: Ignoring unknown attribute 'forge.entity_gravity'
+[22Apr2021 16:42:33.464] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Sirstas: Set own game mode to Creative Mode]
+[22Apr2021 16:43:42.166] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Sirstas: Set own game mode to Survival Mode]
+[22Apr2021 16:47:36.391] [Server thread/INFO] [minecolonies/]: WorkOrderBuild at location BlockPos{x=1114, y=69, z=874} is using schematics/birch/warehouse2 instead of schematics/birch/warehouse2
+[22Apr2021 16:51:32.823] [Server thread/INFO] [minecolonies/]: WorkOrderBuild at location BlockPos{x=1167, y=69, z=892} is using schematics/birch/farmer3 instead of schematics/birch/farmer3
+[22Apr2021 16:52:09.100] [Server thread/INFO] [minecolonies/]: WorkOrderBuild at location BlockPos{x=1088, y=69, z=911} is using schematics/birch/citizen4 instead of schematics/birch/citizen4
+[22Apr2021 16:52:19.451] [Server thread/INFO] [minecolonies/]: WorkOrderBuild at location BlockPos{x=1074, y=69, z=911} is using schematics/birch/citizen4 instead of schematics/birch/citizen4
+[22Apr2021 16:52:30.074] [Server thread/INFO] [minecolonies/]: WorkOrderBuild at location BlockPos{x=1061, y=69, z=911} is using schematics/birch/citizen4 instead of schematics/birch/citizen4
+[22Apr2021 16:52:56.126] [Server thread/INFO] [minecolonies/]: WorkOrderBuild at location BlockPos{x=1149, y=69, z=911} is using schematics/birch/citizen4 instead of schematics/birch/citizen4
+[22Apr2021 16:53:06.575] [Server thread/INFO] [minecolonies/]: WorkOrderBuild at location BlockPos{x=1163, y=69, z=911} is using schematics/birch/citizen4 instead of schematics/birch/citizen4
+[22Apr2021 16:53:38.761] [Server thread/INFO] [minecolonies/]: WorkOrderBuild at location BlockPos{x=1178, y=69, z=911} is using schematics/birch/citizen3 instead of schematics/birch/citizen3
+[22Apr2021 16:55:01.034] [Server thread/INFO] [minecolonies/]: WorkOrderBuild at location BlockPos{x=1066, y=69, z=968} is using schematics/caledonia/citizen3 instead of schematics/caledonia/citizen3
+[22Apr2021 17:00:00.052] [Server thread/INFO] [tombstone/]: All players have been successfully backed up
+[22Apr2021 17:00:48.334] [Server thread/INFO] [minecolonies/]: WorkOrderBuild at location BlockPos{x=1043, y=69, z=877} is using schematics/birch/shepherd2 instead of schematics/birch/shepherd2
+[22Apr2021 17:01:46.008] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Sirstas: Gave 1 [Wheat] to Sirstas]
+[22Apr2021 17:09:21.663] [Server thread/INFO] [minecolonies/]: WorkOrderBuild at location BlockPos{x=1167, y=69, z=892} is using schematics/birch/farmer3 instead of schematics/birch/farmer3
+[22Apr2021 17:10:01.742] [Server thread/INFO] [minecolonies/]: Colony 1 - removed AbstractBuilding BlockPos{x=1167, y=69, z=892} of type farmer
+[22Apr2021 17:10:01.742] [Server thread/INFO] [minecolonies.requestsystem.1/]: Removing provider: StandardToken{id=adb552d6-6d59-4dc9-8284-34c82705e6fc}
+[22Apr2021 17:10:01.743] [Server thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Server
+java.lang.IllegalArgumentException: Can not reassign a request that has children.
+	at com.minecolonies.coremod.colony.requestsystem.management.handlers.RequestHandler.reassignRequest(RequestHandler.java:226) ~[minecolonies:0.14.93-ALPHA]
+	at com.minecolonies.coremod.colony.requestsystem.management.manager.StandardRequestManager.reassignRequest(StandardRequestManager.java:250) ~[minecolonies:0.14.93-ALPHA]
+	at com.minecolonies.coremod.colony.requestsystem.management.handlers.ProviderHandler.removeResolverWithAssignedRequests(ProviderHandler.java:173) ~[minecolonies:0.14.93-ALPHA]
+	at com.minecolonies.coremod.colony.requestsystem.management.handlers.ProviderHandler.processResolverForRemoval(ProviderHandler.java:136) ~[minecolonies:0.14.93-ALPHA]
+	at com.minecolonies.coremod.colony.requestsystem.management.handlers.ProviderHandler.processResolversForRemoval(ProviderHandler.java:109) ~[minecolonies:0.14.93-ALPHA]
+	at com.minecolonies.coremod.colony.requestsystem.management.handlers.ProviderHandler.removeProviderInternal(ProviderHandler.java:87) ~[minecolonies:0.14.93-ALPHA]
+	at com.minecolonies.coremod.colony.requestsystem.management.handlers.ProviderHandler.removeProvider(ProviderHandler.java:204) ~[minecolonies:0.14.93-ALPHA]
+	at com.minecolonies.coremod.colony.requestsystem.management.manager.StandardRequestManager.onProviderRemovedFromColony(StandardRequestManager.java:357) ~[minecolonies:0.14.93-ALPHA]
+	at com.minecolonies.coremod.colony.managers.BuildingManager.removeBuilding(BuildingManager.java:521) ~[minecolonies:0.14.93-ALPHA]
+	at com.minecolonies.coremod.colony.buildings.AbstractBuilding.destroy(AbstractBuilding.java:358) ~[minecolonies:0.14.93-ALPHA]
+	at com.minecolonies.coremod.colony.buildings.AbstractBuilding.requestRemoval(AbstractBuilding.java:792) ~[minecolonies:0.14.93-ALPHA]
+	at com.minecolonies.coremod.network.messages.server.colony.building.BuildRequestMessage.onExecute(BuildRequestMessage.java:95) ~[minecolonies:0.14.93-ALPHA]
+	at com.minecolonies.coremod.network.messages.server.AbstractBuildingServerMessage.onExecute(AbstractBuildingServerMessage.java:81) ~[minecolonies:0.14.93-ALPHA]
+	at com.minecolonies.coremod.network.messages.server.AbstractColonyServerMessage.onExecute(AbstractColonyServerMessage.java:140) ~[minecolonies:0.14.93-ALPHA]
+	at com.minecolonies.coremod.network.messages.splitting.SplitPacketMessage.lambda$onExecute$1(SplitPacketMessage.java:128) ~[minecolonies:0.14.93-ALPHA]
+	at net.minecraftforge.fml.network.NetworkEvent$Context.enqueueWork(NetworkEvent.java:215) ~[forge:?]
+	at com.minecolonies.coremod.network.messages.splitting.SplitPacketMessage.onExecute(SplitPacketMessage.java:128) ~[minecolonies:0.14.93-ALPHA]
+	at com.minecolonies.coremod.network.NetworkChannel.lambda$setupInternalMessages$4(NetworkChannel.java:264) ~[minecolonies:0.14.93-ALPHA]
+	at net.minecraftforge.fml.network.simple.IndexedMessageCodec.lambda$tryDecode$3(IndexedMessageCodec.java:128) ~[forge:?]
+	at java.util.Optional.ifPresent(Unknown Source) ~[?:1.8.0_281]
+	at net.minecraftforge.fml.network.simple.IndexedMessageCodec.tryDecode(IndexedMessageCodec.java:128) ~[forge:?]
+	at net.minecraftforge.fml.network.simple.IndexedMessageCodec.consume(IndexedMessageCodec.java:162) ~[forge:?]
+	at net.minecraftforge.fml.network.simple.SimpleChannel.networkEventListener(SimpleChannel.java:80) ~[forge:?]
+	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-4.0.0.jar:?]
+	at net.minecraftforge.fml.network.NetworkInstance.dispatch(NetworkInstance.java:84) ~[forge:?]
+	at net.minecraftforge.fml.network.NetworkHooks.lambda$onCustomPayload$1(NetworkHooks.java:88) ~[forge:?]
+	at java.util.Optional.map(Unknown Source) ~[?:1.8.0_281]
+	at net.minecraftforge.fml.network.NetworkHooks.onCustomPayload(NetworkHooks.java:88) ~[forge:?]
+	at net.minecraft.network.play.ServerPlayNetHandler.func_147349_a(ServerPlayNetHandler.java:1413) ~[?:?]
+	at net.minecraft.network.play.client.CCustomPayloadPacket.func_148833_a(CCustomPayloadPacket.java:42) ~[?:?]
+	at net.minecraft.network.play.client.CCustomPayloadPacket.func_148833_a(CCustomPayloadPacket.java:12) ~[?:?]
+	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18) ~[?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144) ~[?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:734) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:159) ~[?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:717) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:711) ~[?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:697) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:646) ~[?:?]
+	at net.minecraft.server.MinecraftServer.lambda$startServer$0(MinecraftServer.java:232) ~[?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_281]
+[22Apr2021 17:11:08.594] [Server thread/INFO] [minecolonies/]: Colony 1 - new AbstractBuilding for class net.minecraft.block.BlockState at BlockPos{x=1156, y=69, z=896}
+[22Apr2021 17:11:08.596] [Server thread/INFO] [minecolonies/]: WorkOrderBuild at location BlockPos{x=1156, y=69, z=896} is using schematics/birch/farmer1 instead of schematics/birch/farmer1
+[22Apr2021 17:11:08.601] [Server thread/INFO] [minecolonies/]: WorkOrderBuild at location BlockPos{x=1156, y=69, z=896} is using schematics/birch/farmer3 instead of schematics/birch/farmer3
+[22Apr2021 17:11:17.443] [Server thread/INFO] [minecolonies/]: WorkOrderBuild at location BlockPos{x=1156, y=69, z=896} is using schematics/birch/farmer3 instead of schematics/birch/farmer3
+[22Apr2021 17:20:00.023] [Server thread/INFO] [tombstone/]: All players have been successfully backed up
+[22Apr2021 17:32:08.010] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Sirstas: Gave 64 [Compost] to Sirstas]
+[22Apr2021 17:35:13.496] [Server thread/WARN] [minecolonies/]: Statemachine for transition com.minecolonies.api.entity.ai.statemachine.AITarget@7e3c2d3d threw an exception:
+java.util.NoSuchElementException: No value present
+	at java.util.Optional.get(Unknown Source) ~[?:1.8.0_281]
+	at com.minecolonies.coremod.colony.requestsystem.resolvers.core.AbstractCraftingProductionResolver.resolveRequest(AbstractCraftingProductionResolver.java:184) ~[minecolonies:0.14.93-ALPHA]
+	at com.minecolonies.coremod.colony.requestsystem.management.handlers.RequestHandler.resolveRequest(RequestHandler.java:489) ~[minecolonies:0.14.93-ALPHA]
+	at com.minecolonies.coremod.colony.requestsystem.management.handlers.RequestHandler.onRequestCompleted(RequestHandler.java:322) ~[minecolonies:0.14.93-ALPHA]
+	at com.minecolonies.coremod.colony.requestsystem.management.manager.StandardRequestManager.updateRequestState(StandardRequestManager.java:303) ~[minecolonies:0.14.93-ALPHA]
+	at com.minecolonies.coremod.colony.requestsystem.management.handlers.RequestHandler.onRequestCompleted(RequestHandler.java:327) ~[minecolonies:0.14.93-ALPHA]
+	at com.minecolonies.coremod.colony.requestsystem.management.manager.StandardRequestManager.updateRequestState(StandardRequestManager.java:303) ~[minecolonies:0.14.93-ALPHA]
+	at com.minecolonies.coremod.colony.requestsystem.management.handlers.RequestHandler.onRequestResolved(RequestHandler.java:291) ~[minecolonies:0.14.93-ALPHA]
+	at com.minecolonies.coremod.colony.requestsystem.management.manager.StandardRequestManager.updateRequestState(StandardRequestManager.java:299) ~[minecolonies:0.14.93-ALPHA]
+	at com.minecolonies.coremod.colony.jobs.JobDeliveryman.finishRequest(JobDeliveryman.java:285) ~[minecolonies:0.14.93-ALPHA]
+	at com.minecolonies.coremod.entity.ai.citizen.deliveryman.EntityAIWorkDeliveryman.deliver(EntityAIWorkDeliveryman.java:361) ~[minecolonies:0.14.93-ALPHA]
+	at com.minecolonies.api.entity.ai.statemachine.basestatemachine.BasicTransition.getNextState(BasicTransition.java:79) ~[minecolonies:0.14.93-ALPHA]
+	at com.minecolonies.api.entity.ai.statemachine.basestatemachine.BasicStateMachine.transitionToNext(BasicStateMachine.java:163) ~[minecolonies:0.14.93-ALPHA]
+	at com.minecolonies.api.entity.ai.statemachine.basestatemachine.BasicStateMachine.checkTransition(BasicStateMachine.java:149) ~[minecolonies:0.14.93-ALPHA]
+	at com.minecolonies.api.entity.ai.statemachine.tickratestatemachine.TickRateStateMachine.checkTransition(TickRateStateMachine.java:129) ~[minecolonies:0.14.93-ALPHA]
+	at com.minecolonies.api.entity.ai.statemachine.tickratestatemachine.TickRateStateMachine.tick(TickRateStateMachine.java:108) ~[minecolonies:0.14.93-ALPHA]
+	at com.minecolonies.coremod.entity.ai.basic.AbstractAISkeleton.func_75246_d(AbstractAISkeleton.java:129) ~[minecolonies:0.14.93-ALPHA]
+	at net.minecraft.entity.ai.goal.PrioritizedGoal.func_75246_d(SourceFile:55) ~[?:?]
+	at com.minecolonies.api.entity.CustomGoalSelector.func_75774_a(CustomGoalSelector.java:223) ~[minecolonies:0.14.93-ALPHA]
+	at net.minecraft.entity.MobEntity.func_70626_be(MobEntity.java:682) ~[?:?]
+	at net.minecraft.entity.LivingEntity.func_70636_d(LivingEntity.java:2411) ~[?:?]
+	at net.minecraft.entity.MobEntity.func_70636_d(MobEntity.java:488) ~[?:?]
+	at net.minecraft.entity.AgeableEntity.func_70636_d(SourceFile:127) ~[?:?]
+	at com.minecolonies.api.entity.citizen.AbstractEntityCitizen.func_70636_d(AbstractEntityCitizen.java:389) ~[minecolonies:0.14.93-ALPHA]
+	at com.minecolonies.coremod.entity.citizen.EntityCitizen.func_70636_d(EntityCitizen.java:449) ~[minecolonies:0.14.93-ALPHA]
+	at net.minecraft.entity.LivingEntity.func_70071_h_(LivingEntity.java:2158) ~[?:?]
+	at net.minecraft.entity.MobEntity.func_70071_h_(MobEntity.java:300) ~[?:?]
+	at net.minecraft.world.server.ServerWorld.func_217479_a(ServerWorld.java:611) ~[?:?]
+	at net.minecraft.world.World.func_217390_a(World.java:554) ~[?:?]
+	at net.minecraft.world.server.ServerWorld.func_72835_b(ServerWorld.java:404) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:851) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:291) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:787) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:642) ~[?:?]
+	at net.minecraft.server.MinecraftServer.lambda$startServer$0(MinecraftServer.java:232) ~[?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_281]
+[22Apr2021 17:35:13.516] [Server thread/ERROR] [minecolonies/]: Pausing Entity Harper S. Gedding (com.minecolonies.coremod.job.Deliveryman) at BlockPos{x=1163, y=68, z=891} for 100 Seconds because of error:
+[22Apr2021 17:35:13.517] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: java.util.NoSuchElementException: No value present
+[22Apr2021 17:35:13.518] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at java.util.Optional.get(Unknown Source)
+[22Apr2021 17:35:13.518] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at com.minecolonies.coremod.colony.requestsystem.resolvers.core.AbstractCraftingProductionResolver.resolveRequest(AbstractCraftingProductionResolver.java:184)
+[22Apr2021 17:35:13.519] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at com.minecolonies.coremod.colony.requestsystem.management.handlers.RequestHandler.resolveRequest(RequestHandler.java:489)
+[22Apr2021 17:35:13.520] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at com.minecolonies.coremod.colony.requestsystem.management.handlers.RequestHandler.onRequestCompleted(RequestHandler.java:322)
+[22Apr2021 17:35:13.520] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at com.minecolonies.coremod.colony.requestsystem.management.manager.StandardRequestManager.updateRequestState(StandardRequestManager.java:303)
+[22Apr2021 17:35:13.521] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at com.minecolonies.coremod.colony.requestsystem.management.handlers.RequestHandler.onRequestCompleted(RequestHandler.java:327)
+[22Apr2021 17:35:13.522] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at com.minecolonies.coremod.colony.requestsystem.management.manager.StandardRequestManager.updateRequestState(StandardRequestManager.java:303)
+[22Apr2021 17:35:13.523] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at com.minecolonies.coremod.colony.requestsystem.management.handlers.RequestHandler.onRequestResolved(RequestHandler.java:291)
+[22Apr2021 17:35:13.523] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at com.minecolonies.coremod.colony.requestsystem.management.manager.StandardRequestManager.updateRequestState(StandardRequestManager.java:299)
+[22Apr2021 17:35:13.524] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at com.minecolonies.coremod.colony.jobs.JobDeliveryman.finishRequest(JobDeliveryman.java:285)
+[22Apr2021 17:35:13.525] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at com.minecolonies.coremod.entity.ai.citizen.deliveryman.EntityAIWorkDeliveryman.deliver(EntityAIWorkDeliveryman.java:361)
+[22Apr2021 17:35:13.525] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at com.minecolonies.api.entity.ai.statemachine.basestatemachine.BasicTransition.getNextState(BasicTransition.java:79)
+[22Apr2021 17:35:13.526] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at com.minecolonies.api.entity.ai.statemachine.basestatemachine.BasicStateMachine.transitionToNext(BasicStateMachine.java:163)
+[22Apr2021 17:35:13.527] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at com.minecolonies.api.entity.ai.statemachine.basestatemachine.BasicStateMachine.checkTransition(BasicStateMachine.java:149)
+[22Apr2021 17:35:13.528] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at com.minecolonies.api.entity.ai.statemachine.tickratestatemachine.TickRateStateMachine.checkTransition(TickRateStateMachine.java:129)
+[22Apr2021 17:35:13.528] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at com.minecolonies.api.entity.ai.statemachine.tickratestatemachine.TickRateStateMachine.tick(TickRateStateMachine.java:108)
+[22Apr2021 17:35:13.529] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at com.minecolonies.coremod.entity.ai.basic.AbstractAISkeleton.func_75246_d(AbstractAISkeleton.java:129)
+[22Apr2021 17:35:13.530] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at net.minecraft.entity.ai.goal.PrioritizedGoal.func_75246_d(SourceFile:55)
+[22Apr2021 17:35:13.530] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at com.minecolonies.api.entity.CustomGoalSelector.func_75774_a(CustomGoalSelector.java:223)
+[22Apr2021 17:35:13.531] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at net.minecraft.entity.MobEntity.func_70626_be(MobEntity.java:682)
+[22Apr2021 17:35:13.531] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at net.minecraft.entity.LivingEntity.func_70636_d(LivingEntity.java:2411)
+[22Apr2021 17:35:13.532] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at net.minecraft.entity.MobEntity.func_70636_d(MobEntity.java:488)
+[22Apr2021 17:35:13.533] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at net.minecraft.entity.AgeableEntity.func_70636_d(SourceFile:127)
+[22Apr2021 17:35:13.533] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at com.minecolonies.api.entity.citizen.AbstractEntityCitizen.func_70636_d(AbstractEntityCitizen.java:389)
+[22Apr2021 17:35:13.534] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at com.minecolonies.coremod.entity.citizen.EntityCitizen.func_70636_d(EntityCitizen.java:449)
+[22Apr2021 17:35:13.534] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at net.minecraft.entity.LivingEntity.func_70071_h_(LivingEntity.java:2158)
+[22Apr2021 17:35:13.535] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at net.minecraft.entity.MobEntity.func_70071_h_(MobEntity.java:300)
+[22Apr2021 17:35:13.535] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at net.minecraft.world.server.ServerWorld.func_217479_a(ServerWorld.java:611)
+[22Apr2021 17:35:13.536] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at net.minecraft.world.World.func_217390_a(World.java:554)
+[22Apr2021 17:35:13.537] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at net.minecraft.world.server.ServerWorld.func_72835_b(ServerWorld.java:404)
+[22Apr2021 17:35:13.537] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:851)
+[22Apr2021 17:35:13.538] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:291)
+[22Apr2021 17:35:13.538] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:787)
+[22Apr2021 17:35:13.539] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:642)
+[22Apr2021 17:35:13.539] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at net.minecraft.server.MinecraftServer.lambda$startServer$0(MinecraftServer.java:232)
+[22Apr2021 17:35:13.540] [Server thread/INFO] [STDERR/]: [com.minecolonies.coremod.entity.ai.basic.AbstractEntityAIBasic:onException:348]: 	at java.lang.Thread.run(Unknown Source)
+[22Apr2021 17:40:00.031] [Server thread/INFO] [tombstone/]: All players have been successfully backed up
+[22Apr2021 17:41:24.183] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Sirstas: Saved the game]
+[22Apr2021 17:41:29.297] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Sirstas: Stopping the server]
+[22Apr2021 17:41:29.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[22Apr2021 17:41:29.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[22Apr2021 17:41:29.331] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Sirstas lost connection: Disconnected
+[22Apr2021 17:41:29.332] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Sirstas left the game
+[22Apr2021 17:41:29.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[22Apr2021 17:41:29.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Lets Play]'/minecraft:overworld
+[22Apr2021 17:41:30.135] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22Apr2021 17:41:30.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Lets Play]'/minecraft:the_nether
+[22Apr2021 17:41:30.149] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22Apr2021 17:41:30.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Lets Play]'/minecraft:the_end
+[22Apr2021 17:41:30.162] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22Apr2021 17:41:30.472] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22Apr2021 17:41:30.759] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22Apr2021 17:41:30.996] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22Apr2021 17:42:02.193] [pool-3-thread-1/INFO] [STDOUT/]: [com.shutdowner.threading.WatcherThread:run:59]: Server shut down correctly, ending gracefully
+[22Apr2021 17:42:02.194] [pool-3-thread-1/INFO] [STDOUT/]: [com.shutdowner.threading.WatcherThread:printThreads:114]: ------------ Thread: DestroyJavaVM is still running! stacktrace below
